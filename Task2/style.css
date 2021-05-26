@@ -19,3 +19,76 @@
   padding:40px 20px;
 }
 
+.WeatheMain .WeatherShow{
+  padding:40px 20px;
+}
+
+.WeatheMain .WeatherShow .WeatheArea{
+  background-image: url("img/bg-02.jpg");
+  background-position:center;
+  background-size:cover;
+  background-attachment:fixed;
+  padding:40px 60px;
+  color:#ffffff;
+}
+
+
+.WeatheMain .WeatherShow .WeatheArea h5{
+  padding-top:10px;
+}
+
+.WeatheMain .WeatherShow .WeatheArea span{
+  font-size:17px;
+  padding-left:10px;
+}
+
+.WeatheMain .WeatherShow .WeatheArea .Temp2{
+  float:right;
+}
+
+.WeatheMain .WeatherShow .WeatheArea .alert{
+ margin-top:20px;
+}
+
+
+@media (min-width: 666px) and (max-width: 1280px) {
+
+.WeatheMain{
+  padding:200px 60px;
+  height:1500px;
+}
+
+
+}
+
+@media (min-width: 320px) and (max-width: 660px) {
+
+
+.WeatheMain .WeatherShow .WeatheArea{
+  background-image: url("img/bg-03.png");
+  padding:40px 20px;
+  color:#ffffff;
+}
+
+
+.WeatheMain .WeatherShow .WeatheArea h5{
+ font-size:15px;
+}
+
+.WeatheMain .WeatherShow .WeatheArea span{
+  font-size:12px;
+}
+
+.WeatheMain .WeatherShow .WeatheArea .Temp2{
+  float:none;
+}
+
+.WeatheMain .WeatherShow .WeatheArea .alert{
+font-size:13px;
+}
+
+}
+.iconimage{
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+}
