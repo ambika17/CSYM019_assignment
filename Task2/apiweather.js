@@ -58,8 +58,36 @@ window.onload = function() {    // this function runs whenever window is complet
           if(tempinc < -5 || tempinc > 35 ){ //if temperature is extreme show warning
             $("#extremetempdiv").attr("style", "display:block")
           }
-       }   
-      } 
+          
+          
+          var tempinf = (((data.main.temp)*9)/5)+32;   //converting calcius to faranhite
+          $("#tfspan").html(tempinf.toFixed(2)+"&deg;F"); 
+          var speedkph = (data.wind.speed * 3.6); //as we got speed in m/s so converitng to kph
+          var speedmph = (data.wind.speed * 2.237); //now converting to mph
+          if(speedmph > 50){ //if extreme wind speed show warning
+            $("#extremewinddiv").attr("style", "display:block")
+          }
+          $("#kphspan").html(speedkph.toFixed(2)+" kph");  //display wind speed in kph
+          $("#mphspan").html(speedmph.toFixed(2)+" mph");  //display wind speed in mph
+          var winddir = data.wind.deg; // getting wind speed
+          
+          // condtions to check what wind direction is
+          if(winddir > 348.75 && winddir < 20.25){$("#dirspan").html(winddir+"&deg; (North)");}
+          else if(winddir > 20.25 && winddir < 65){$("#dirspan").html(winddir+"&deg; (North East)");}
+          else if(winddir > 65 && winddir < 110){$("#dirspan").html(winddir+"&deg; (East)");}
+          else if(winddir > 110 && winddir < 150){$("#dirspan").html(winddir+"&deg; (South East)");}
+          else if(winddir > 150 && winddir < 200){$("#dirspan").html(winddir+"&deg; (South)");}
+          else if(winddir > 200 && winddir < 245){$("#dirspan").html(winddir+"&deg; (South West)");}
+          else if(winddir > 245 && winddir < 295){$("#dirspan").html(winddir+"&deg; (West)");}
+          else if(winddir > 295 && winddir < 348.75){$("#dirspan").html(winddir+"&deg; (North West)");}
+          
+          
+                }
+            });
+
+        }else{
+            alert('Field cannot be empty');  // if city select has empty value show error
+        }
   }
 }
 
