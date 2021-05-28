@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+body h1{
+  font-family: Arial, Helvetica, sans-serif;
+	margin:25px;
+	text-align:center;
+}
+
+body table{
+	text-align:center;
+	width:75%;
+	margin:auto;
+}
+body td, body th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align:center;
+}
+
+body tr:nth-child(even){background-color: #f2f2f2;}
+
+body tr:hover {background-color: #ddd;}
+
+body th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #EE1D23;
+  color: white;
+}
