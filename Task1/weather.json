@@ -1,3 +1,4 @@
+//weather data array for different cities
 [
     {
         "ID": "1",
@@ -8,5 +9,56 @@
         "WindDirection": "87",
         "WindChillFactor": "35"
     },
-    
+    {
+        "ID": "2",
+        "Name": "Bristol",
+        "CurrentConditions": "Rain",
+        "Temperature": "15",
+		"WindSpeed": "1",
+        "WindDirection": "95",
+        "WindChillFactor": "75"
+    },{
+        "ID": "3",
+        "Name": "Birmingham",
+        "CurrentConditions": "HeavyRain",
+        "Temperature": "12",
+		"WindSpeed": "1.89",
+        "WindDirection": "37",
+        "WindChillFactor": "95"
+    },
+    {
+        "ID": "4",
+        "Name": "Bradford",
+        "CurrentConditions": "Rain",
+        "Temperature": "10",
+		"WindSpeed": "1",
+        "WindDirection": "85",
+        "WindChillFactor": "35"
+    },
+    {
+        "ID": "5",
+        "Name": "Bournemouth",
+        "CurrentConditions": "Clear",
+        "Temperature": "5",
+		"WindSpeed": "1.5",
+        "WindDirection": "150",
+        "WindChillFactor": "50"
+    },
+    {
+        "ID": "6",
+        "Name": "Cambridge",
+        "CurrentConditions": "Clear",
+        "Temperature": "15",
+		"WindSpeed": "1",
+        "WindDirection": "233",
+        "WindChillFactor": "65"
+    },{
+        "ID": "7",
+        "Name": "Canterbury",
+        "CurrentConditions": "Rain",
+        "Temperature": "20",
+		"WindSpeed": "1.65",
+        "WindDirection": "270",
+        "WindChillFactor": "65"
+    }
 ]
