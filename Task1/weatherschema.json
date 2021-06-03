@@ -1,0 +1,95 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#", 
+	"$id": "https://example.com/object1620979734.json", 
+	"title": "Root", 
+	"type": "array",
+	"default": [],
+	"items":{
+		"$id": "#root/items", 
+		"title": "Items", 
+		"type": "object",
+		"required": [
+			"ID",
+			"Name",
+			"CurrentConditions",
+			"Temperature",
+			"WindSpeed",
+			"WindDirection",
+			"WindChillFactor"
+		],
+		"properties": {
+			"ID": {
+				"$id": "#root/items/ID", 
+				"title": "Id", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"1"
+				],
+				"pattern": "^.*$"
+			},
+			"Name": {
+				"$id": "#root/items/Name", 
+				"title": "Name", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"Bath"
+				],
+				"pattern": "^.*$"
+			},
+			"CurrentConditions": {
+				"$id": "#root/items/CurrentConditions", 
+				"title": "Currentconditions", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"Clouds"
+				],
+				"pattern": "^.*$"
+			},
+			"Temperature": {
+				"$id": "#root/items/Temperature", 
+				"title": "Temperature", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"12.5"
+				],
+				"pattern": "^.*$"
+			},
+			"WindSpeed": {
+				"$id": "#root/items/WindSpeed", 
+				"title": "Windspeed", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"1.98"
+				],
+				"pattern": "^.*$"
+			},
+			"WindDirection": {
+				"$id": "#root/items/WindDirection", 
+				"title": "Winddirection", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"87"
+				],
+				"pattern": "^.*$"
+			},
+			"WindChillFactor": {
+				"$id": "#root/items/WindChillFactor", 
+				"title": "Windchillfactor", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"35"
+				],
+				"pattern": "^.*$"
+			}
+		}
+	}
+
+}
