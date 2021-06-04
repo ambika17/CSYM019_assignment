@@ -14,6 +14,7 @@ var dataObject = {  //creating json object to for both (select options) dropdown
     "Bangor": [],"Cardiff": [],"Newport": [],"Swansea": []
   }
 }
+
 window.onload = function() {    // this function runs whenever window is completely loaded
   var countrySel = document.getElementById("country");   // getting first dropdown i.e. country in a variable
   var citySel = document.getElementById("city");  // getting second dropdown i.e. city in a variable
@@ -29,8 +30,7 @@ window.onload = function() {    // this function runs whenever window is complet
       citySel.options[citySel.options.length] = new Option(y, y);  // push data of respective country into city dropdown
     }
   }
-  
-  
+    
   citySel.onchange = function(){
   var city = $("#city").val(); // getting value of city
 
