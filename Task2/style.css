@@ -10,7 +10,7 @@ select, textarea {
 }
 /* Two-column layout */
 .col {
-  float: left;
+  /*float: left;*/
   width: 50%;
   margin: auto;
   padding: 0 50px;

@@ -6,14 +6,8 @@
   <!-- Required meta tags to ensure proper rendering and touch zooming for all devices  -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Bootstrap CSS for inbuilt boostrap style -->
-  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">-->
-  <!-- Required JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
+  <!-- Required JavaScript jquery-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>-->
-  <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
   <!-- link to font awesome icons-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- link style.css page from our pack -->
@@ -25,32 +19,24 @@
 	<!-- div is the containers, which are the most basic layout element in Bootstrap and are required when using our default grid system. WeatheMain is the user defined style which is described in the style.css-->
 	<div class="WeatheMain">
 		<div class="container">
-  			<div class="row">
-  				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"><h1><center>Weather App</center></h1></div>
+  			<h1><center>Weather App</center></h1>
 	
-    			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 WhatherForm">
-  					<div class="row">
-	
-    					<div class="col">
-						  <div class="form-group">
+    			<div class="WhatherForm">
+  						  <div class="form-group">
 						    <label for="country">Country:</label>
 							<select name="country" id="country" class="form-control">
 						    <option value="" selected="selected">Select Country</option>
 						  </select>
 						  </div>
-  						</div>
-    					<div class="col">
-						  <div class="form-group">
+  						  <div class="form-group">
 						    <label for="city">City:</label>
 							<select name="city" id="city" class="form-control">
 						    <option value="" selected="selected">Please select country first</option>
 						  </select>
-						  </div>
-  						</div>
-  					</div>
+						  </div>				
   				</div>
 
-  				<div  class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 WeatherShow" id="show">
+  				<div  class="WeatherShow" id="show">
 					<div class="WeatheArea" id="contentdiv" style="display:none;">
 						<h5 style="display:inline-block">City:</h5> <span id="cityspan"></span><br>
 						<h5 style="display:inline-block">Date: </h5><span id="datespan"></span>
@@ -62,6 +48,8 @@
 						<h5>Wind Direction:  <span id="dirspan"></span></h5>
 					</div>
 				</div>
+
+	<!-- link to js file -->
 	<script src="apiweather.js"></script>
 	
 </body>
