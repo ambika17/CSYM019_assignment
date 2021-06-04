@@ -1,28 +1,31 @@
+/* font style for body*/
 body {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
 }
+/* add font style to heading*/
 body h1{
   font-family: Arial, Helvetica, sans-serif;
 	margin:25px;
 	text-align:center;
 }
-
+/* align table customizing width and margin*/
 body table{
 	text-align:center;
 	width:75%;
 	margin:auto;
 }
+/* alignment and border for table head and column cells*/
 body td, body th {
   border: 1px solid #ddd;
   padding: 8px;
   text-align:center;
 }
-
+/* even table row styles*/
 body tr:nth-child(even){background-color: #f2f2f2;}
-
+/* hovering effect for table row*/
 body tr:hover {background-color: #ddd;}
-
+/*styles for table head */
 body th {
   padding-top: 12px;
   padding-bottom: 12px;

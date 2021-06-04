@@ -1,9 +1,9 @@
-    $(document).ready(function () {
+    $(document).ready(function () { //used to make a function available after the document is loaded.
     getdata();
-    setInterval(function(){ getdata(); }, 3000);
+    setInterval(function(){ getdata(); }, 3000); //method repeats a block of code at every given timing event.
     });
     function getdata(){
-        $.getJSON("weather.json", function (data) {
+        $.getJSON("weather.json", function (data) { //method loads JSON data from external file
 
             var arrItems = [];      // THE ARRAY TO STORE JSON ITEMS.
             $.each(data, function (index, value) {
@@ -41,7 +41,7 @@
             // ADD JSON DATA TO THE TABLE AS ROWS.
             for (var i = 0; i < arrItems.length; i++) {
 
-                tr = table.insertRow(-1);
+                tr = table.insertRow(-1); //inserting table row
 
                 for (var j = 0; j < col.length; j++) {
                     var tabCell = tr.insertCell(-1);

@@ -54,7 +54,7 @@ window.onload = function() {    // this function runs whenever window is complet
           $("#conditionspan").html(data.weather[0].main); //data.weather[0].main to get weather condition
           $("#iconid").attr("src","img/"+data.weather[0].main+".png"); ////displaying respective icon 
           var tempinc = data.main.temp;
-          $("#tcspan").html(tempinc+"&deg;C"); // displaying the temperature in calcius
+          $("#tcspan").html(tempinc+"&deg;C"); // displaying the temperature in celcius
           if(tempinc < -5 || tempinc > 35 ){ //if temperature is extreme show warning
             $("#extremetempdiv").attr("style", "display:block")
           }
