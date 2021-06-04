@@ -1,3 +1,23 @@
+select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+/* background image and styling with height and padding*/
 .WeatheMain{
   background-image: url("img/bg.jpg");
   background-position:center;
@@ -7,7 +27,8 @@
   min-height:700px;
 }
 
-.WeatheMain h2{
+/* heading h1 style*/
+.WeatheMain h1{
   color:#ffffff;
   padding-bottom:40px;
   text-align:center;
