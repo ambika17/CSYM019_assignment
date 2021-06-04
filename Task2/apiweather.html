@@ -28,7 +28,7 @@
     				<div class="row">
     					<!--  Create two equal columns that floats next to each other -->
   						  <div class="column">
-  						  	<!--defines a label for several elements -->
+  						  	<!--defines a label for country elements -->
 						    <label for="country">Country:</label>
 							<select name="country" id="country" class="form-control">
 						    <option value="" selected="selected">Select Country</option>
@@ -36,25 +36,36 @@
 						  </div>
   						  <!--  Create two equal columns that floats next to each other -->
   						  <div class="column">
-						    <!--defines a label for several elements -->
+						    <!--defines a label for city elements -->
 						    <label for="city" class="margin-left-10">City:</label>
+						    <!-- select element is used to create a drop-down list. It is most often used in a form, to collect user input.-->
 							<select name="city" id="city" class="form-control margin-left-10">
+							<!-- The <option> tags inside the <select> element define the available options in the drop-down list. -->
 						    <option value="" selected="selected">Please select country first</option>
 						  </select>
 						  </div>
 					</div>				
   				</div>
-
+  				<!-- WeatherShow style is used for padding  -->
   				<div  class="WeatherShow" id="show">
+  					<!-- WeatheArea style with background img with spacing. contentdiv for display block-->				
 					<div class="WeatheArea" id="contentdiv" style="display:none;">
-						<h5 style="display:inline-block">City:</h5> <span id="cityspan"></span><br>
-						<h5 style="display:inline-block">Date: </h5><span id="datespan"></span>
-						<h5>Weather Condition: <span id="conditionspan"></span><img width="5%" class="iconimage" id="iconid" style="color:white" src=""></h5>
-						<h5>Temperature &deg; C:  <span id="tcspan"></span> <span class="Temp2">Temperature &deg F:  <span id="tfspan"></span></span></h5>
-						<div class="alert alert-danger" id="extremetempdiv" style="display:none;">Extreme Temperature Warning! Please take necessary Measures.</div>
-						<h5>Wind Speed (kph):  <span id="kphspan"></span> <span class="Temp2">Wind Speed(mph):  <span id="mphspan"></span></span></h5>
-						<div class="alert alert-danger" id="extremewinddiv" style="display:none;">Extreme Wind Speed Warning! Please take necessary Measures.</div>
-						<h5>Wind Direction:  <span id="dirspan"></span></h5>
+						<!-- define HTML headings here city.-->
+  						<h5 style="display:inline-block">City:</h5> <span id="cityspan"></span><br>
+						<!--define HTML headings -->
+  						<h5 style="display:inline-block">Date: </h5><span id="datespan"></span>
+						<!--define HTML headings here for titles -->
+  						<h5>Weather Condition: <span id="conditionspan"></span><img width="5%" class="iconimage" id="iconid" style="color:white" src=""></h5>
+						<!--define HTML headings here for titles -->
+  						<h5>Temperature &deg; C:  <span id="tcspan"></span> <span class="Temp2">Temperature &deg F:  <span id="tfspan"></span></span></h5>
+						<!-- disply block -->
+  						<div id="extremetempdiv" style="display:none;">Extreme Temperature Warning! Please take necessary Measures.</div>
+						<!--define HTML headings here for titles -->
+  						<h5>Wind Speed (kph):  <span id="kphspan"></span> <span class="Temp2">Wind Speed(mph):  <span id="mphspan"></span></span></h5>
+						<!-- -->
+  						<div class="alert alert-danger" id="extremewinddiv" style="display:none;">Extreme Wind Speed Warning! Please take necessary Measures.</div>
+						<!--define HTML headings here for titles -->
+  						<h5>Wind Direction:  <span id="dirspan"></span></h5>
 					</div>
 				</div>
 

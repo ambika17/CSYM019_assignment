@@ -52,16 +52,17 @@ select {
   margin-left: 10px;
 }
 
+/* div style with bg color and padding*/
 .WeatheMain .WhatherForm{
   background-color:#FFFFFF;
   opacity:0.9;
   padding:40px 20px;
 }
-
+/* for padding */
 .WeatheMain .WeatherShow{
   padding:40px 20px;
 }
-
+/* bg image and positioning */
 .WeatheMain .WeatherShow .WeatheArea{
   background-image: url("img/bg-02.jpg");
   background-position:center;
@@ -70,58 +71,50 @@ select {
   padding:40px 60px;
   color:#ffffff;
 }
-
-
+/* padding for h5 only*/
 .WeatheMain .WeatherShow .WeatheArea h5{
   padding-top:10px;
 }
-
+/* style for span */
 .WeatheMain .WeatherShow .WeatheArea span{
   font-size:17px;
   padding-left:10px;
 }
 
+/* right alignment*/
 .WeatheMain .WeatherShow .WeatheArea .Temp2{
   float:right;
 }
-
+/* margin spacing top*/
 .WeatheMain .WeatherShow .WeatheArea .alert{
  margin-top:20px;
 }
-
-
+ 
+/* media queries mainly used for responsive disply of the elements with diiferent screens. 
+it uses the @media rule to include a block of CSS properties only if a certain condition is true*/
 @media (min-width: 666px) and (max-width: 1280px) {
 
 .WeatheMain{
   padding:200px 60px;
   height:1500px;
 }
-
-
 }
 
 @media (min-width: 320px) and (max-width: 660px) {
-
-
 .WeatheMain .WeatherShow .WeatheArea{
   background-image: url("img/bg-03.png");
   padding:40px 20px;
   color:#ffffff;
 }
-
-
 .WeatheMain .WeatherShow .WeatheArea h5{
  font-size:15px;
 }
-
 .WeatheMain .WeatherShow .WeatheArea span{
   font-size:12px;
 }
-
 .WeatheMain .WeatherShow .WeatheArea .Temp2{
   float:none;
 }
-
 .WeatheMain .WeatherShow .WeatheArea .alert{
 font-size:13px;
 }
