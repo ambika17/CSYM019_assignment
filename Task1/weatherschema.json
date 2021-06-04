@@ -1,3 +1,4 @@
+/*schema describing the structure of other data*/
 {
 	"definitions": {},
 	"$schema": "http://json-schema.org/draft-07/schema#", 
@@ -9,7 +10,7 @@
 		"$id": "#root/items", 
 		"title": "Items", 
 		"type": "object",
-		"required": [
+		"required": [ //required data
 			"ID",
 			"Name",
 			"CurrentConditions",
@@ -20,7 +21,7 @@
 		],
 		"properties": {
 			"ID": {
-				"$id": "#root/items/ID", 
+				"$id": "#root/items/ID",  // ID structure
 				"title": "Id", 
 				"type": "string",
 				"default": "",
@@ -30,7 +31,7 @@
 				"pattern": "^.*$"
 			},
 			"Name": {
-				"$id": "#root/items/Name", 
+				"$id": "#root/items/Name", //name structure
 				"title": "Name", 
 				"type": "string",
 				"default": "",
@@ -40,7 +41,7 @@
 				"pattern": "^.*$"
 			},
 			"CurrentConditions": {
-				"$id": "#root/items/CurrentConditions", 
+				"$id": "#root/items/CurrentConditions", //currectcondition structure
 				"title": "Currentconditions", 
 				"type": "string",
 				"default": "",
@@ -50,7 +51,7 @@
 				"pattern": "^.*$"
 			},
 			"Temperature": {
-				"$id": "#root/items/Temperature", 
+				"$id": "#root/items/Temperature", //temperature structure
 				"title": "Temperature", 
 				"type": "string",
 				"default": "",
@@ -60,7 +61,7 @@
 				"pattern": "^.*$"
 			},
 			"WindSpeed": {
-				"$id": "#root/items/WindSpeed", 
+				"$id": "#root/items/WindSpeed", // windspeed structure
 				"title": "Windspeed", 
 				"type": "string",
 				"default": "",
@@ -70,7 +71,7 @@
 				"pattern": "^.*$"
 			},
 			"WindDirection": {
-				"$id": "#root/items/WindDirection", 
+				"$id": "#root/items/WindDirection",  //wind direction structure
 				"title": "Winddirection", 
 				"type": "string",
 				"default": "",
@@ -80,7 +81,7 @@
 				"pattern": "^.*$"
 			},
 			"WindChillFactor": {
-				"$id": "#root/items/WindChillFactor", 
+				"$id": "#root/items/WindChillFactor",  //windchillfactor structure
 				"title": "Windchillfactor", 
 				"type": "string",
 				"default": "",
