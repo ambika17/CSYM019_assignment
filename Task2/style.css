@@ -1,4 +1,4 @@
-select, textarea {
+select {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
@@ -23,15 +23,33 @@ select, textarea {
   background-position:center;
   background-size:cover;
   background-attachment:fixed;
-  padding:80px 20px;
+  padding:30px 20px;
   min-height:700px;
 }
 
 /* heading h1 style*/
 .WeatheMain h1{
   color:#ffffff;
-  padding-bottom:40px;
+  padding-bottom:30px;
   text-align:center;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  padding-bottom: 70px;
+}
+
+/* margin adjustment left 10pixel*/
+.margin-left-10{
+  margin-left: 10px;
 }
 
 .WeatheMain .WhatherForm{
