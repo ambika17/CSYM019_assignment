@@ -130,7 +130,7 @@
         "WindChillFactor": "40"
     },
     {
-        "ID": "16",
+        "ID": "16", //city 16 with weather details
         "Name": "Manchester",
         "CurrentConditions": "Clouds",
         "Temperature": "17",
@@ -138,7 +138,7 @@
         "WindDirection": "43",
         "WindChillFactor": "50"
     },{
-        "ID": "17",
+        "ID": "17", //city 17 with weather details
         "Name": "Newcastle upon Tyne",
         "CurrentConditions": "Clear",
         "Temperature": "15",
@@ -147,7 +147,7 @@
         "WindChillFactor": "40"
     },
     {
-        "ID": "18",
+        "ID": "18", //city 18 with weather details
         "Name": "Norwich",
         "CurrentConditions": "HeavyRain",
         "Temperature": "23",
@@ -155,7 +155,7 @@
         "WindDirection": "14",
         "WindChillFactor": "39"
     },{
-        "ID": "19",
+        "ID": "19", //city 19 with weather details
         "Name": "Nottingham",
         "CurrentConditions": "Snow",
         "Temperature": "23",
@@ -164,7 +164,7 @@
         "WindChillFactor": "80"
     },
     {
-        "ID": "20",
+        "ID": "20", //city 20 with weather details
         "Name": "Oxford",
         "CurrentConditions": "Clear",
         "Temperature": "8",
@@ -172,7 +172,7 @@
         "WindDirection": "37",
         "WindChillFactor": "75"
     },{
-        "ID": "11",
+        "ID": "11", //city 21 with weather details
         "Name": "Plymouth",
         "CurrentConditions": "Clouds",
         "Temperature": "12",
@@ -181,7 +181,7 @@
         "WindChillFactor": "35"
     },
     {
-        "ID": "22",
+        "ID": "22", //city 22 with weather details
         "Name": "Ripon",
         "CurrentConditions": "Clear",
         "Temperature": "23",
@@ -189,7 +189,7 @@
         "WindDirection": "90",
         "WindChillFactor": "25"
     },{
-        "ID": "23",
+        "ID": "23", //city 23 with weather details
         "Name": "Salford",
         "CurrentConditions": "Snow",
         "Temperature": "33",
@@ -198,7 +198,7 @@
         "WindChillFactor": "50"
     },
     {
-        "ID": "24",
+        "ID": "24", //city 24 with weather details
         "Name": "Sheffield",
         "CurrentConditions": "Snow",
         "Temperature": "12",
@@ -206,7 +206,7 @@
         "WindDirection": "200",
         "WindChillFactor": "49"
     },{
-        "ID": "25",
+        "ID": "25",  //city 25 with weather details
         "Name": "Wakefield",
         "CurrentConditions": "Clouds",
         "Temperature": "34",
@@ -215,7 +215,7 @@
         "WindChillFactor": "79"
     },
     {
-        "ID": "26",
+        "ID": "26", //city 26 with weather details
         "Name": "Wolverhampton",
         "CurrentConditions": "Clear",
         "Temperature": "23",
@@ -224,7 +224,7 @@
         "WindChillFactor": "23"
     },
     {
-        "ID": "27",
+        "ID": "27", //city 27 with weather details
         "Name": "Worcester",
         "CurrentConditions": "Clouds",
         "Temperature": "18",
