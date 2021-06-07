@@ -1,7 +1,7 @@
-//weather data array for different cities
+//weather data array for different cities eg England cities
 [
     {
-        "ID": "1",
+        "ID": "1",    //city 1 with weather details
         "Name": "Bath",
         "CurrentConditions": "Clouds",
         "Temperature": "12.5",
@@ -10,7 +10,7 @@
         "WindChillFactor": "35"
     },
     {
-        "ID": "2",
+        "ID": "2",  //city 2 with weather details
         "Name": "Bristol",
         "CurrentConditions": "Rain",
         "Temperature": "15",
@@ -18,7 +18,7 @@
         "WindDirection": "95",
         "WindChillFactor": "75"
     },{
-        "ID": "3",
+        "ID": "3", //city 3 with weather details
         "Name": "Birmingham",
         "CurrentConditions": "HeavyRain",
         "Temperature": "12",
@@ -27,7 +27,7 @@
         "WindChillFactor": "95"
     },
     {
-        "ID": "4",
+        "ID": "4", //city 4 with weather details
         "Name": "Bradford",
         "CurrentConditions": "Rain",
         "Temperature": "10",
@@ -36,7 +36,7 @@
         "WindChillFactor": "35"
     },
     {
-        "ID": "5",
+        "ID": "5", //city 5 with weather details
         "Name": "Bournemouth",
         "CurrentConditions": "Clear",
         "Temperature": "5",
