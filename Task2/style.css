@@ -92,6 +92,8 @@ select {
  
 /* media queries mainly used for responsive disply of the elements with diiferent screens. 
 it uses the @media rule to include a block of CSS properties only if a certain condition is true*/
+
+/* this is for the system having disply 666*1280 diamension*/
 @media (min-width: 666px) and (max-width: 1280px) {
 
 .WeatheMain{
