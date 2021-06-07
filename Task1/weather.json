@@ -45,7 +45,7 @@
         "WindChillFactor": "50"
     },
     {
-        "ID": "6",
+        "ID": "6", //city 6 with weather details
         "Name": "Cambridge",
         "CurrentConditions": "Clear",
         "Temperature": "15",
@@ -53,7 +53,7 @@
         "WindDirection": "233",
         "WindChillFactor": "65"
     },{
-        "ID": "7",
+        "ID": "7", //city 7 with weather details
         "Name": "Canterbury",
         "CurrentConditions": "Rain",
         "Temperature": "20",
@@ -62,7 +62,7 @@
         "WindChillFactor": "65"
     },
     {
-        "ID": "8",
+        "ID": "8", //city 8 with weather details
         "Name": "Chester",
         "CurrentConditions": "Rain",
         "Temperature": "19",
@@ -70,7 +70,7 @@
         "WindDirection": "150",
         "WindChillFactor": "30"
     },{
-        "ID": "9",
+        "ID": "9", //city 9 with weather details
         "Name": "Derby",
         "CurrentConditions": "HeavyRain",
         "Temperature": "33",
@@ -79,7 +79,7 @@
         "WindChillFactor": "65"
     },
     {
-        "ID": "10",
+        "ID": "10", //city 10 with weather details
         "Name": "Exeter",
         "CurrentConditions": "Rain",
         "Temperature": "22",
@@ -87,7 +87,7 @@
         "WindDirection": "56",
         "WindChillFactor": "86"
     },{
-        "ID": "11",
+        "ID": "11", //city 11 with weather details
         "Name": "Lancaster",
         "CurrentConditions": "Clouds",
         "Temperature": "24",
@@ -96,7 +96,7 @@
         "WindChillFactor": "90"
     },
     {
-        "ID": "12",
+        "ID": "12", //city 12 with weather details
         "Name": "Lancaster",
         "CurrentConditions": "Clouds",
         "Temperature": "12",
@@ -104,7 +104,7 @@
         "WindDirection": "23",
         "WindChillFactor": "10"
     },{
-        "ID": "13",
+        "ID": "13", //city 13 with weather details
         "Name": "Leeds",
         "CurrentConditions": "Rain",
         "Temperature": "45",
@@ -113,7 +113,7 @@
         "WindChillFactor": "80"
     },
     {
-        "ID": "14",
+        "ID": "14", //city 14 with weather details
         "Name": "Liverpool",
         "CurrentConditions": "HeavyRain",
         "Temperature": "12",
@@ -121,7 +121,7 @@
         "WindDirection": "324",
         "WindChillFactor": "14"
     },{
-        "ID": "15",
+        "ID": "15", //city 15 with weather details
         "Name": "London",
         "CurrentConditions": "Clear",
         "Temperature": "16",
